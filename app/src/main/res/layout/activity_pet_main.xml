@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PetMainActivity">
+
+    <EditText
+        android:id="@+id/idEdtPetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Pet Name"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtOwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Owner Name"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Age"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Gender"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Birth Date"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtSpecies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Species"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Breed"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/idBtnSubmitPet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add New Pet"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnViewPet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="View Pets"
+        android:textAllCaps="false" />
+
+</LinearLayout>

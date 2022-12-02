@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppointmentMainActivity">
+
+    <EditText
+        android:id="@+id/idEdtPetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Pet Name"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtOwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Owner Name"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtVetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Vet Name"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtAppointmentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Appointment Date"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/idEdtAppointmentTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Appointment Time"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/idBtnSubmitAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Submit Appointment Details"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnViewAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="View Appointments"
+        android:textAllCaps="false" />
+
+</LinearLayout>

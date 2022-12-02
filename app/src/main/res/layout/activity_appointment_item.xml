@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idCVApointmentItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/idTVPetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Pet Name"
+                android:textColor="@color/purple_500"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idTVOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Owner Name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idTVVetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Vet Name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idTVAppointmentDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Apppointment Date"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idTVAppointmentTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Appointment Time"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

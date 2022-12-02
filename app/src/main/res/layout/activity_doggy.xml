@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".doggy">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="140dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="36dp"
+        android:background="@drawable/ic_baseline_pets_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/petdogrecord"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <ImageButton
+        android:id="@+id/petdogrecord"
+        android:layout_width="130dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/ic_baseline_create_new_folder_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:text="Doggy"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

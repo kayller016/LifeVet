@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LifeVet</string>
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="col1">AppointmentID</string>
+    <string name="col2">Pet Owner Name</string>
+    <string name="col3">Pet Name</string>
+    <string name="col4">Schedule</string>
+
+    <string name="row1AppointmentId">1</string>
+    <string name="row1OwnerName">Alvin Almoite</string>
+    <string name="row1PetName">Summer</string>
+    <string name="row1Sched">2023-02-21 12:00:00</string>
+    <string name="row2AppointmentId">2</string>
+    <string name="row2OwnerName">Mika Almoite</string>
+    <string name="row2PetName">Midnight</string>
+    <string name="row2Sched">2023-02-21 12:00:00</string>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size_verysmall">10sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">20sp</dimen>
+</resources>

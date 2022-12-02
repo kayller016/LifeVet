@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+
+    app:showIn="navigation_view"
+    app:ignore="NamespaceTypo">
+
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_profile_24"
+        android:title="Profile" />
+
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings" />
+
+
+    <item android:title="Authentication">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Log out"/>
+
+
+
+
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_baseline_rate_24"
+                android:title="Rate Us"/>
+
+
+
+
+        </menu>
+
+    </item>
+
+</menu>

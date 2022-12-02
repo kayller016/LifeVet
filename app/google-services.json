@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835174128937",
+    "project_id": "lifevet-a2be4",
+    "storage_bucket": "lifevet-a2be4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835174128937:android:ca8eed47d7e2483e976b38",
+        "android_client_info": {
+          "package_name": "com.example.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835174128937-hm7acfbth9chliute5vo8ogo16aj8tpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnm5cZpPbgjk4EGXPclLXP4tChpqxPJBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835174128937-hm7acfbth9chliute5vo8ogo16aj8tpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

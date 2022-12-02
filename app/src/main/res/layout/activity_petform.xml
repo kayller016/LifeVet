@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdb"
+    tools:context=".ActivityPetForm">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:paddingStart="10sp"
+        android:text="Pet Details"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <EditText
+        android:id="@+id/petName"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        android:paddingStart="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Enter age"
+        android:inputType="textPersonName"
+        android:paddingStart="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Enter gender"
+        android:inputType="textPersonName"
+        android:paddingStart="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <EditText
+        android:id="@+id/dateOfBirth"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Enter Birth Date"
+        android:inputType="textPersonName"
+        android:paddingStart="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458" />
+
+
+    <EditText
+        android:id="@+id/species"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Enter species"
+        android:inputType="textPersonName"
+        android:paddingStart="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <EditText
+        android:id="@+id/breed"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Enter breed"
+        android:inputType="textPersonName"
+        android:paddingStart="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/savePet"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="44dp"
+        android:text="Save"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
